@@ -1,0 +1,135 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/abstrato.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/*----LOGO----*/
+.logo a {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #0fc018;
+}
+.header {
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+
+/*----INICIO----*/
+.login-container {
+    padding: 60px;
+    height: 350px;
+    margin-left: 50%;
+    position: relative;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #fff;
+    z-index: 90;
+    transform: translateX(-50%);
+}
+
+.login-container h1 {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-top: 0;
+}
+
+.login-container input {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background: #333;
+    border: 2px solid #3835fd;
+    border-radius: 6px;
+    padding: 0 10px 0 35px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login-container input:hover {
+    background: #444;
+}
+
+.input-box {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.input-box .icon {
+    position: absolute;
+    left: 10px;
+    font-size: 1.2em;
+    line-height: 55px;
+    color: #00FF00;
+}
+
+.forgot {
+    margin: -15px 0 15px;
+}
+
+.forgot a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+.login-container button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background: #0fc018;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background: #3ad842;
+}
+
+.singup {
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.singup p {
+    color: #fff;
+}
+
+.singup p a {
+    color: red;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.singup p a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
